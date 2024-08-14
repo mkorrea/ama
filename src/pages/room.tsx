@@ -1,8 +1,9 @@
 import { useParams } from "react-router-dom"
-import { ArrowRight, ArrowUp, Share2 } from "lucide-react"
+import { ArrowRight, Share2 } from "lucide-react"
 import { toast } from "sonner"
 
 import amaLogo from '../assets/ama-logo.svg'
+import { Message } from "../components/message"
 
 export function Room(){
   const { roomId } = useParams()
@@ -61,23 +62,11 @@ export function Room(){
 
 
         <ol className="list-decimal list-outside px-3 space-y-8">
-          <li className="ml-4 leading-relaxed text-zinc-100">
-            What is GoLang and what are its main advantages compared to other programming languages like Python, Java, or C++?
+          <Message text="What is GoLang and what are its main advantages compared to other programming languages like Python, Java, or C++?" amountOfReactions={53} answered />
+          <Message text="What is GoLang and what are its main advantages compared to other programming languages like Python, Java, or C++?" amountOfReactions={53} />
+          <Message text="What is GoLang and what are its main advantages compared to other programming languages like Python, Java, or C++?" amountOfReactions={53} />
+          
 
-            <button type="button" className="mt-3 flex items-center gap-3 text-orange-400 text-sm font-medium hover:text-orange-500">
-              <ArrowUp className="size-4" />
-              Like question (53)
-            </button>
-          </li>
-
-          <li className="ml-4 leading-relaxed text-zinc-100">
-            What is GoLang and what are its main advantages compared to other programming languages like Python, Java, or C++?
-
-            <button type="button" className="mt-3 flex items-center gap-3 text-zinc-400 text-sm font-medium hover:text-zinc-300">
-              <ArrowUp className="size-4" />
-              Like question (53)
-            </button>
-          </li>
         </ol>
     </div>
   )
