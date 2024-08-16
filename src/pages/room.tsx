@@ -41,6 +41,8 @@ export function Room(){
 
       <div className="h-px w-full bg-zinc-900"></div>
 
+
+
       <form 
           className="flex items-center gap-2 bg-zinc-900 rounded-xl p-2 border border-zinc-800 ring-orange-400 ring-offset-2 ring-offset-zinc-950 focus-within:ring-1"
         >
@@ -63,10 +65,8 @@ export function Room(){
 
         <ol className="list-decimal list-outside px-3 space-y-8">
           <Message text="What is GoLang and what are its main advantages compared to other programming languages like Python, Java, or C++?" amountOfReactions={53} answered />
-          <Message text="What is GoLang and what are its main advantages compared to other programming languages like Python, Java, or C++?" amountOfReactions={53} />
-          <Message text="What is GoLang and what are its main advantages compared to other programming languages like Python, Java, or C++?" amountOfReactions={53} />
-          
-
+          <Message text="How do goroutines work in GoLang and why are they important for concurrency and parallelism?" amountOfReactions={53} />
+          <Message text="What are the best practices for organizing code in a GoLang project, including packages, modules, and the directory structure?" amountOfReactions={53} />
         </ol>
     </div>
   )
