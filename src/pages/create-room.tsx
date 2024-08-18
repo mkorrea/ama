@@ -9,7 +9,7 @@ export function CreateRoom(){
     const theme = data.get('theme')?.toString()
     console.log(theme)
     
-    navigate('/room/sadadw')
+    navigate('/room/6237858d-5441-400a-a5f8-271de0f4b5ef')
   }
    
   return (

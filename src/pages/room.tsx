@@ -64,9 +64,20 @@ export function Room(){
 
 
         <ol className="list-decimal list-outside px-3 space-y-8">
-          <Message text="What is GoLang and what are its main advantages compared to other programming languages like Python, Java, or C++?" amountOfReactions={53} answered />
-          <Message text="How do goroutines work in GoLang and why are they important for concurrency and parallelism?" amountOfReactions={53} />
-          <Message text="What are the best practices for organizing code in a GoLang project, including packages, modules, and the directory structure?" amountOfReactions={53} />
+          <Message 
+            text="What is GoLang and what are its main advantages compared to other programming languages like Python, Java, or C++?" 
+            amountOfReactions={53} answered 
+          />
+
+          <Message 
+            text="How do goroutines work in GoLang and why are they important for concurrency and parallelism?" 
+            amountOfReactions={12} 
+          />
+
+          <Message 
+            text="What are the best practices for organizing code in a GoLang project, including packages, modules, and the directory structure?" 
+            amountOfReactions={79} 
+          />
         </ol>
     </div>
   )
